@@ -4,13 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
-      name="goit_homework-04"
+      name="goit_homework-05"
       content="width=device-width, initial-scale=1.0"
     />
-    <title>goit-homework-4</title>
+    <title>goit-homework-05</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <link
       rel="stylesheet"
@@ -38,7 +42,7 @@
         <ul class="contact list">
           <li class="item">
             <a href="mailto:info@devstudio.com" class="contact-link">
-              <svg class="icon-mail" style="width: 16px; height: 12px;">
+              <svg class="icon-mail" style="width: 16px; height: 12px">
                 <use href="./images/sprite-2.svg#icon-envelope-hover"></use>
               </svg>
               info@devstudio.com
@@ -46,7 +50,7 @@
           </li>
           <li class="item">
             <a href="tel:+380961111111" class="contact-link">
-              <svg class="icon-mail" style="width: 10px; height: 16px;">
+              <svg class="icon-mail" style="width: 10px; height: 16px">
                 <use href="./images/sprite-2.svg#icon-smartphone"></use>
               </svg>
               +380961111111
@@ -60,10 +64,12 @@
     <main class="main-bg">
       <section class="section-title section">
         <h1 class="title">эффективные решения для вашего бизнеса</h1>
-        <button type="button" class="btn-main">Заказать услугу</button>
+        <button type="button" class="btn-main" data-modal-open>
+          Заказать услугу
+        </button>
       </section>
 
-<!-- yes -->
+      <!-- yes -->
       <section class="aside section">
         <div class="container">
           <div class="gallery">
@@ -91,43 +97,43 @@
             </ul>
           </div>
           <div class="description">
-          <ul class="description-list list">
-            <li class="aside-item">
-              <h3 class="heading">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
-              <p class="text">
-                Идейные соображения,а также началоповседневной работы по
-                формированию позиции.
-              </p >
-            </li>
-            <li class="aside-item">
-              <h3 class="heading">ПУНКТУАЛЬНОСТЬ</h3>
-              <p class="text">
-                Задача организации,в особенности же рамки и место обучения
-                кадров влечёт за собой.
-              </p>
-            </li>
+            <ul class="description-list list">
+              <li class="aside-item">
+                <h3 class="heading">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
+                <p class="text">
+                  Идейные соображения,а также началоповседневной работы по
+                  формированию позиции.
+                </p>
+              </li>
+              <li class="aside-item">
+                <h3 class="heading">ПУНКТУАЛЬНОСТЬ</h3>
+                <p class="text">
+                  Задача организации,в особенности же рамки и место обучения
+                  кадров влечёт за собой.
+                </p>
+              </li>
 
-            <li class="aside-item">
-              <h3 class="heading">ПЛАНИРОВАНИЕ</h3>
-              <p class="text">
-                Равным образом консультация с широким активом в значительной
-                степени обусловливает.
-              </p>
-            </li>
-            <li class="aside-item">
-              <h3 class="heading">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
-              <p class="text">
-                Значимость этих проблем настолько очевидна,что реализация
-                плановых заданий.
-              </p>
-            </li>
-          </ul>
-        </div>
+              <li class="aside-item">
+                <h3 class="heading">ПЛАНИРОВАНИЕ</h3>
+                <p class="text">
+                  Равным образом консультация с широким активом в значительной
+                  степени обусловливает.
+                </p>
+              </li>
+              <li class="aside-item">
+                <h3 class="heading">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
+                <p class="text">
+                  Значимость этих проблем настолько очевидна,что реализация
+                  плановых заданий.
+                </p>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
-<!-- happy -->
+      <!-- happy -->
 
-<!-- happy -->
+      <!-- happy -->
       <section class="section-img section">
         <div class="container">
           <h2 class="caption">Чем мы занимаемся</h2>
@@ -447,27 +453,27 @@
     <footer class="footer-bg">
       <div class="contact-block container">
         <div class="logo-adress">
-        <a href="./index.html" class="logo-footer"
-          ><span class="logo-span">Web</span>Studio</a
-        >
-        <div class="adress-block">
-          <address class="address-footer">
-            <p class="address">г.Киев,пр-т Леси Украинки,26</p>
-            <ul class="list-footer list">
-              <li class="item">
-                <a href="mailto:info@devstudio.com" class="contact-link">
-                  info@devstudio.com</a
-                >
-              </li>
-              <li class="item">
-                <a href="tel:+380991111111" class="contact-link"
-                  >+380991111111</a
-                >
-              </li>
-            </ul>
-          </address>
+          <a href="./index.html" class="logo-footer"
+            ><span class="logo-span">Web</span>Studio</a
+          >
+          <div class="adress-block">
+            <address class="address-footer">
+              <p class="address">г.Киев,пр-т Леси Украинки,26</p>
+              <ul class="list-footer list">
+                <li class="item">
+                  <a href="mailto:info@devstudio.com" class="contact-link">
+                    info@devstudio.com</a
+                  >
+                </li>
+                <li class="item">
+                  <a href="tel:+380991111111" class="contact-link"
+                    >+380991111111</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
         </div>
-      </div>
         <div class="social-join">
           <h3 class="join-name">присоединяйтесь</h3>
           <ul class="join-list list">
@@ -503,5 +509,15 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-close-btn" data-modal-close>
+          <svg class="close-button" style="width: 18px; height: 18px">
+            <use href="./images/sprite-3.svg#icon-close-black-18dp-2-1"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
